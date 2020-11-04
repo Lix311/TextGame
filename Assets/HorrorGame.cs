@@ -10,6 +10,8 @@ public class HorrorGame : MonoBehaviour
     void Start()
     {
         textComponent.text =  ("You wake up in a Hospital Bed. Where am I? What do you do?");
+        textComponent.text =  ("You wake up in a Hospital Bed. Where am I? What do you do?");
+
     }
 
     // Update is called once per frame
