@@ -6,10 +6,19 @@ using UnityEngine.UI;
 public class HorrorGame : MonoBehaviour
 {
     [SerializeField] Text textComponent;
+    [SerializeField] State StartingState;
+
+    string[] days = {"Mon","Tues","Weds","Thurs","Fri"};
+
+    State state;
     // Start is called before the first frame update
     void Start()
     {
-        textComponent.text =  ("You wake up in a Hospital Bed. Where am I? What do you do?");
+        state = StartingState;
+        textComponent.text =  state.GetStateStory();
+        Debug.Log(days[1]);
+        
+        
         
 
     }
@@ -17,6 +26,23 @@ public class HorrorGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        ManageState();
     }
+
+    private void ManageState(){
+        var nextStates = state.GetNextStates();
+        
+        if(Input.GetKeyDown(KeyCode.Alpha1)){
+            state = nextStates[0];
+        } else if(Input.GetKeyDown(KeyCode.Alpha2)){
+            state = nextStates[1];
+        } else if(Input.GetKeyDown(KeyCode.Alpha3)){
+            state = nextStates[2];
+        }
+        textComponent.text = state.GetStateStory();
+    }
+
+
+
+
 }

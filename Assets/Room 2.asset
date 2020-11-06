@@ -10,13 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cb7e476e9fa2041b8aa81a833da9c16d, type: 3}
-  m_Name: StartingState
+  m_Name: Room 2
   m_EditorClassIdentifier: 
-  storyText: "You wake up in a hospital bed. The floors of the hallway are covered
-    in blood, and there are flesh eating zombies everywhere.  You notice there's
-    a fallen police officer who died many days ago. \n\nYou see a gun and knife attached
-    to his belt. The gun is hard to reach. \n\nWhat should I do?\n1. Take the gun.\n2.
-    Take the knife."
+  storyText: this is room 2
   nextStates:
   - {fileID: 11400000, guid: 6a92c71549c02424f951b02a112d94b2, type: 2}
-  - {fileID: 11400000, guid: 51177f84b14154f168990e18436ff1f3, type: 2}
+  - {fileID: 11400000, guid: 26502b99c810749abaeafbc3ef8b9095, type: 2}
