@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb7e476e9fa2041b8aa81a833da9c16d, type: 3}
+  m_Name: A1. Wake up 1
+  m_EditorClassIdentifier: 
+  storyText: "You wake up in a hospital bed. The floors of the hallway are covered
+    in blood, and there are flesh eating zombies everywhere.  You notice there's
+    a fallen police officer who died many days ago. \n\nYou see a gun and knife attached
+    to his belt. The gun is hard to reach. \n\nWhat should I do?\n1. Take the gun.\n2.
+    Take the knife."
+  nextStates:
+  - {fileID: 11400000, guid: 477bb4a5515f04e59b388e500c25a153, type: 2}
+  - {fileID: 11400000, guid: f7b6b86a66ad84d7483b193b10415cba, type: 2}

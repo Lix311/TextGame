@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb7e476e9fa2041b8aa81a833da9c16d, type: 3}
+  m_Name: A5. Run with staff
+  m_EditorClassIdentifier: 
+  storyText: 'The Hospital staff member seems to know their way around. They quickly
+    lead you to the exit.
+
+
+    You Escape!
+
+
+    1. Return to Main Menu.'
+  nextStates:
+  - {fileID: 11400000, guid: c4437c2a50c294232899d89b2629a150, type: 2}
